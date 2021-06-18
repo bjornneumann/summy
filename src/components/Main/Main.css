@@ -1,0 +1,39 @@
+Form TexField {
+	width: 100%;
+}
+
+.appTitle {
+	font-family: Dosis, 'sans-serif' !important;
+}
+
+.noteSectionsTitle {
+	margin-top: 30px;
+}
+
+.noteSection {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.paperNote {
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.iFramePaper {
+	height: 100%;
+	min-height: 400px;
+}
+
+iframe {
+	border-width: 0;
+}
+
+.backButton {
+	float: right;
+}
+
+.articleLink {
+	margin: 20px 0 !important;
+	display: block;
+}

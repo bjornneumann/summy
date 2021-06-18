@@ -1,0 +1,72 @@
+button:focus {
+	outline: none;
+}
+
+.tabs span {
+	text-transform: none;
+	font-weight: normal;
+}
+
+.appName {
+	font-family: Dosis, 'sans-serif';
+	margin: 0 auto 24px auto;
+	text-align: center;
+	color: white;
+	opacity: 0.75;
+}
+
+.loadingButton:disabled {
+    color: rgba(63, 81, 181, 1) !important;
+    box-shadow: none !important;
+    background-color: rgba(63, 81, 181, 0.16) !important;
+}
+
+.login {
+	height: 100%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background: #f5f9fa;*/
+    background: #FEAC5E;
+    background: -webkit-linear-gradient(-45deg, #4BC0C8, #C779D0, #FEAC5E);
+    background: linear-gradient(-45deg, #4BC0C8, #C779D0, #FEAC5E);
+}
+
+.loginBoxContainer {
+	width: calc(100% - 30px);
+	max-width: 400px;
+}
+
+.loginBox {
+	position: relative;
+}
+
+.loginBox::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 22px;
+    left: 22px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.5);
+}
+
+.loginBoxContent {
+	border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+.logoFile {
+	display: none;
+	margin: 0 auto 16px auto;
+	padding-top: 16px;
+	width: 140px;
+}
+
+.course-info {
+	color: #ccc;
+	margin-top: 20px;
+	text-align: center;
+}
